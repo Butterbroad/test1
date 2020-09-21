@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 14px;
+    overflow: hidden;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
